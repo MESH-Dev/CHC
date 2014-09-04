@@ -244,7 +244,7 @@ h3.sidebar-title {font-size: 15px;text-transform: uppercase;border-bottom: 1px s
 
 #content.blog #contentSecondary #blog-authors .gutter, #content.blog #contentSecondary #blog-categories .gutter, #content.blog #contentSecondary #blog-archives .gutter{padding:1px 10px 0 16px;}
 
-#content.blog #contentSecondary a{color:#fff;}
+#content.blog #contentSecondary a{color:#2599e7;}
 	#content.blog #contentSecondary a:hover{opacity:.7;}
 .author-entry{float:left;width:50%;display:table;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
 	.author-entry:hover{opacity:.7;}
@@ -266,7 +266,7 @@ h3.sidebar-title {font-size: 15px;text-transform: uppercase;border-bottom: 1px s
 #content .blog-widget{float:left;width:100%;margin:0 0 50px !important;}
 	#content.blog .blog-widget .gutter{padding:1px 10px 0 16px !important;}
 	#content .blog-widget ul{list-style:none;margin:0;padding:0;}
-	#content .blog-widget ul li{font-size:11px;}
+	#content .blog-widget ul li{font-size:11px; color:#2599e7;}
 	#content .blog-widget ul li a{font-size:11px;}
 
 #contentSecondary #blog-rss{background:url(../img/lineTexBG.png);border-radius:5px;color:#002b5b !important;font:13px/16px 'Arvo',serif;padding:10px 15px;display:block;float:left;margin:35px 0 31px 0;}
