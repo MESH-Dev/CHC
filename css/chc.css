@@ -138,7 +138,7 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 
 	#content.orange-theme	#sidebar-menu ul#sidebar-nav > li > ul li > ul li.current-menu-item > a { background: white; color:#ED8045 !important; width: 79%; display: block; }
 	#content.blue-theme	#sidebar-menu ul#sidebar-nav > li > ul li > ul li.current-menu-item > a { background: white; color:#2599e7 !important; width: 79%; display: block; }
-	#content.green-theme	#sidebar-menu ul#sidebar-nav > li > ul li > ul li.current-menu-item > a { background: white; color:#7aca8f !important; width: 79%; display: block; }
+	#content.green-theme	#sidebar-menu ul#sidebar-nav > li > ul li > ul li.current-menu-item > a { background: white; color:#65b578 !important; width: 79%; display: block; }
 
 	#sidebar-menu ul#sidebar-nav > li > ul li > ul li > a{ margin: 0px 5px; }
 
@@ -155,7 +155,7 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 	/* -- Color Scheme -- */
 	#content.green-theme #contentPrimary a {color:#2599e7;}
 	#content.green-theme #contentPrimary a:hover {opacity:0.8;}
-	#content.green-theme, #content.green-theme #sidebar-menu ul#sidebar-nav > li > ul li > a, #content.green-theme #contentPrimary .titleCont h1 a, #content.green-theme #sidebar-menu ul#sidebar-nav > li > a{color:#7aca8f;}
+	#content.green-theme, #content.green-theme #sidebar-menu ul#sidebar-nav > li > ul li > a, #content.green-theme #contentPrimary .titleCont h1 a, #content.green-theme #sidebar-menu ul#sidebar-nav > li > a{color:#65b578;}
 	#content.blue-theme #contentPrimary a {color:#2599e7}
 	#content.blue-theme #contentPrimary a:hover {opacity:0.8}
 	#content.blue-theme, #content.blue-theme #sidebar-menu ul#sidebar-nav > li > ul li > a, #content.blue-theme #contentPrimary .titleCont h1 a, #content.blue-theme #sidebar-menu ul#sidebar-nav > li > a{color:#2599e7;}
@@ -169,11 +169,10 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 	#content.orange-theme .colorbar, #content.orange-theme .grid-show{background:url(../img/CHC_BG_orange.jpg);}
 	#content.blog .colorbar, #content.blog .grid-show{background:#002b5b;}
 
-	#content.green-theme #contentPrimary .titleCont{border-bottom:1px solid #7aca8f;}
+	#content.green-theme #contentPrimary .titleCont{border-bottom:1px solid #65b578;}
 	#content.blue-theme #contentPrimary .titleCont{border-bottom:1px solid #2599e7;}
 	#content.orange-theme #contentPrimary .titleCont{border-bottom:1px solid #ED8045;}
 	#content.blog #contentPrimary .titleCont{border-bottom:1px solid #002b5b;}
-
 
 	#content.search-theme, #content.search-theme #contentPrimary a, #content.search-theme #sidebar-menu ul#sidebar-nav > li > ul li > a, #content.search-theme #contentPrimary .titleCont h1 a{color:#2599e7;}
 	#content.search-theme .colorbar, #content.search-theme .grid-show{background:#2599e7;}
