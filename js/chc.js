@@ -12,22 +12,22 @@ jQuery(document).ready(function($){
 	}
 
 	$('#contentContainer').height($(window).height() - 110);
-	$(window).resize(function() {
-	    var scrollVal = $(document).height;
-	    if (scrollVal > 700) {
-	        $('footer').addClass('stop');
-	    }else{
-		    $('footer').removeClass('stop');
-	    }
-	    $cH = $('#content #contentPrimary').height();
-		if($cH < $(window).height()){
-			$('#content').addClass('hundredheight');
-		}else{
-			$('#content').removeClass('hundredheight');
-		}
-	    $('#contentContainer').height($(window).height() - 110);
-	    $('.colorbar').height($(window).height());
-	});
+	// $(window).resize(function() {
+	//     var scrollVal = $(document).height;
+	//     if (scrollVal > 700) {
+	//         $('footer').addClass('stop');
+	//     }else{
+	// 	    $('footer').removeClass('stop');
+	//     }
+	//     $cH = $('#content #contentPrimary').height();
+	// 	if($cH < $(window).height()){
+	// 		$('#content').addClass('hundredheight');
+	// 	}else{
+	// 		$('#content').removeClass('hundredheight');
+	// 	}
+	//     $('#contentContainer').height($(window).height() - 110);
+	//     $('.colorbar').height($(window).height());
+	// });
 
 	//Slideshow
 	if($('#slides').length > 0){
