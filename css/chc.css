@@ -335,7 +335,7 @@ ol.commentlist li.thread-odd {}
 #archive-query{}
 #blogSearch{float:left;width:100%;margin:0 0 18px 0;}
 	#blogSearch input{float: right;background: #d3d3d6;border: none;border-radius: 2px;font: 11px/13px 'Arvo',serif;font-style: italic;color: #424345;padding: 4px 4px 1px;width: 110px;}
-	#content.blog #contentPrimary .gutter {padding:70px 10px 40px 22px;}
+	#content.blog #contentPrimary .gutter {padding:94px 10px 40px 22px;}
 
 /* ----- Footer ----- */
 footer{background:#424345;position:fixed;bottom:0;left:0;width:100%;margin:0;z-index:2;height:23px;}
