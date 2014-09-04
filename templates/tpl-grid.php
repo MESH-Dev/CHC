@@ -27,7 +27,7 @@ get_header(); ?>
 						  </div>
 					<?php } ?>
 				</div>
-				<div class="clear"></div>
+				<div class="clearfix"></div>
 				<?php the_content(); ?>
 			</div>
 		</div>
