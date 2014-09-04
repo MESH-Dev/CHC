@@ -21,8 +21,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="colorbar"></div>
 </div>
-
-<div class="colorbar"></div>
 <?php } } ?>
 <?php get_footer(); ?>
