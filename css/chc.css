@@ -217,7 +217,7 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 #content.blog .titleCont h1 {text-transform:none;font-size: 32px;line-height: 36px;position: relative;margin: 26px 0 0 0;}
 
 .post-heading{padding: 0 0 9px;margin: 0 0 12px;border-bottom: 1px double #e3e3e4;}
-.post-heading h1 {margin: 0;line-height: 24px;}
+.post-heading h1 {margin: 0;line-height: 45px;}
 .post-meta {font-size: 11px;color:#3f3f40;}
 	.post-meta em{font-family:'Arvo',serif;}
 .post-author{float:left;}
@@ -245,7 +245,7 @@ h3.sidebar-title {font-size: 15px;text-transform: uppercase;border-bottom: 1px s
 #content.blog #contentSecondary #blog-authors .gutter, #content.blog #contentSecondary #blog-categories .gutter, #content.blog #contentSecondary #blog-archives .gutter{padding:1px 10px 0 16px;}
 
 #content.blog #contentSecondary a{color:#2599e7;}
-	#content.blog #contentSecondary a:hover{opacity:.7;}
+	#content.blog #contentSecondary a:hover{opacity:.6;}
 .author-entry{float:left;width:50%;display:table;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
 	.author-entry:hover{opacity:.7;}
 	.author-entry .author-ava{display:table-cell;width:36px;}
