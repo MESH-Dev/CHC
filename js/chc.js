@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
 	if($('#content:not(.blog)').height() < $(document).height() - 355){
 		$('#content:not(.blog)').height($('#content').height() - 355);
 	}
-	
+
 	$('#contentContainer').height($(window).height() - 110);
 	$(window).resize(function() {
 	    var scrollVal = $(document).height;
@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 			$('#content').removeClass('hundredheight');
 		}
 	    $('#contentContainer').height($(window).height() - 110);
-	    $('.colorbar').height($(window).height());
+	    
 	});
 
 	//Slideshow
