@@ -29,6 +29,14 @@ jQuery(document).ready(function($){
 	//     $('.colorbar').height($(window).height());
 	// });
 
+	if (window.location.href.indexOf("/chc/nyc") > -1) {
+	    $("#menu-item-103 ul li").hide();
+	}
+
+	if (window.location.href.indexOf("/chc/services/ft-lauderdale") > -1) {
+		$("#menu-item-103 ul li").hide();
+	}
+
 	//Slideshow
 	if($('#slides').length > 0){
 		$slideshow = $('#slides').slideamonjaro({
