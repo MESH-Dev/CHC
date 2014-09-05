@@ -32,7 +32,7 @@
 				<div id="contact">
 					<span><strong>New York City</strong> 917 305 7700 • 50 Broadway</span><span><strong>Ft. Lauderdale</strong> 954 601 1930 • 2900 W Cypress Creek Rd</span>
 					<?php get_search_form(); ?>
-					<a href="#" class="donate">Donate Now!</a>
+					<a href="https://ssl.charityweb.net/chchearing/" class="donate">Donate Now!</a>
 				</div>
 				<?php
 				$walker = new Menu_With_Description;
