@@ -16,13 +16,6 @@ if ( have_posts() ) { while ( have_posts() ) { the_post(); ?>
 
 <div id="content" class="<?php the_field('color'); ?>-theme">
   <div class="container cf">
-    <a href="<?php the_field('left_cta_link'); ?>">
-      <div id="welcome-callout">
-        <div class="gutter">
-          <?php the_field('left_cta'); ?>
-        </div>
-      </div>
-    </a>
     <div id="contentPrimary">
       <div class="gutter cf">
         <div class="titleCont">
@@ -33,6 +26,13 @@ if ( have_posts() ) { while ( have_posts() ) { the_post(); ?>
           }
         ?>
         <?php the_content(); ?>
+        <a href="<?php the_field('left_cta_link'); ?>">
+          <div id="welcome-callout">
+            <div class="gutter">
+              <?php the_field('left_cta'); ?>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
 

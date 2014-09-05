@@ -50,6 +50,10 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 		#welcome-callout .gutter{padding:10px;}
 		#welcome-callout:hover{opacity:.8;}
 
+  #newsletter-callout{font-size: 13px;color:#3f3f3f;line-height: 19px;word-spacing: -0.05em;background: url(../img/lineTexBG_blue.png);display: block;float: left;width: 215px;margin: 8px 0 0 16px;font-family: 'Arvo',serif;border-radius:6px;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+		#newsletter-callout .gutter{padding:10px;}
+		#newsletter-callout:hover{opacity:.8;}
+
 	#homeContent #welcome{background: url(../img/lineTexBG.png);margin:65px 0px 0px 12px;width: 220px;box-shadow: 0 0 10px rgba(0,0,0,0.5);border-radius: 36px;float:left;}
 		#homeContent #welcome .gutter{padding:23px 18px 45px 23px;}
 		#welcome h2{color: #4e8cc8;font-size: 18px;word-spacing: -0.035em;line-height: 22px;margin:0 0 24px 0;}
