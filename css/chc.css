@@ -26,7 +26,7 @@ header{position:relative;float:left;width:100%;background:url('../img/lineTexBG.
 		header #utility #contact .donate{background: #b04979;color: #fff;font-family: 'Arvo',serif;font-weight: 500;float: right;width: 68px;margin:2px 0 0;font-size: 11px;padding:2px 12px;line-height: 18px;text-decoration: none;letter-spacing: -0.02em;word-spacing: -0.05em;border-radius: 4px;white-space: nowrap;}
 
 		header #utility #contact .search-form{float:left;}
-			#contact .search-form .search-field{border: none;border-radius: 0px;background: #fff;line-height: 17px;font-size: 9px;margin: 3px 0px 0px 8px;width: 100px;text-transform: uppercase;padding: 0 0 0 5px;}
+			#contact .search-form .search-field{border: none;border-radius: 0px;background: #fff;line-height: 17px;font-size: 9px;margin: 3px 0px 0px 8px;width: 83px;text-transform: uppercase;padding: 0 0 0 5px;}
 
 
 		header #utility nav{float:left;width:100%;margin:26px 0 0 0;}
@@ -429,4 +429,4 @@ div#fixedsidebar {position: fixed;max-width: 276px;}
 #content #contentPrimary input[type=submit]{font-size: 13px;color:#ffffff;line-height: 19px;word-spacing: -0.05em;background: url(../img/lineTexBG_blue.png);display: block;font-family: 'Arvo',serif;border-radius:6px;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
 #content #contentPrimary label{font:15px/24px 'Raleway',sans-serif;color:#3f3f40;}
 
-.search-submit{color: #ffffff; width: 22px; margin-left: -2px; border-radius: 6px; background: url(../img/lineTexBG_blue.png)}
+.search-submit{color: #ffffff; width: 22px; margin-left: -2px; background: #2599e7; border: none;}
