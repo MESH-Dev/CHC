@@ -185,7 +185,7 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 	#content.search-theme .colorbar, #content.search-theme .grid-show{background:#2599e7;}
 	#content.search-theme #contentPrimary .titleCont{border-bottom:1px solid #2599e7;}
 
-	#sidebarContent .search-field {width:100%;}
+	#sidebarContent .search-field {border: none;border-radius: 0px;background: #fff;line-height: 17px;font-size: 9px;margin: 3px 0px 0px 8px;width: 100px;text-transform: uppercase;padding: 0 0 0 5px;}
 
 
 /* ----- Landing ----- */
