@@ -79,7 +79,7 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 	#megamenuCont.active{margin:0;}
 	#megamenuCont .container > .gutter{padding:28px 0;}
 	#megamenuCont #first{width:386px;border-right:1px solid #d3d3d6;position:relative;z-index:4;overflow:visible;}
-		#megamenuCont #first .gutter{padding:0 60px 0 91px;}
+		#megamenuCont #first .gutter{padding:0 30px 0 0;}
 		#first .gutter > ul{position:relative;}
 		#first ul li{padding:0 0 12px;margin: 0;line-height: 15px;}
 		#first ul li a{font-weight: 600;color: #3f3f40;font-size: 15px;line-height: 15px;display:block;}
@@ -90,8 +90,9 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 		#second .megamenuData-columnLeft, #third .megamenuData-columnRight{float:left;width:100%;}
 	#megamenuCont #third{width:235px;position:relative;z-index:1;}
 		#megamenuCont #third .gutter{padding:0 0 0 20px;}
-		#megamenuCont h3 {font-weight: normal;font-size: 15px;line-height: 15px;margin:0 0 10px 0;color:#4e8cc8;}
-		#megamenuCont p {font: 12px/18px 'Arvo',serif;font-style: italic;}
+		#megamenuCont h3 {font-weight: bold;font-size: 15px;line-height: 15px;margin:0 0 10px 0;color:#4e8cc8;}
+		#megamenuCont h6 {font:15px/20px 'Raleway',Arial,sans-serif;font-weight:300;margin:0 0 .5em; color:#2599e7}
+		#megamenuCont p {font: 12px/18px 'Arvo',serif;font-style: italic; color:#68686d;}
 	#first, #second, #third {height: 200px;}
 
 
