@@ -423,3 +423,7 @@ a.gridlink:hover > *{opacity:0.7;transition:0.2s all;-webkit-transition:0.2s all
 	#content .container #contentSecondary{float: left;width: 32.3%;color: #fff;position:relative;left: 0;z-index: 2;height: 100%;display: block;}
 
 div#fixedsidebar {position: fixed;max-width: 276px;}
+
+/* Inputs */
+
+.with_frm_style .frm_submit input[type=submit]{font-size: 13px;color:#ffffff;line-height: 19px;word-spacing: -0.05em;background: url(../img/lineTexBG_blue.png);display: block;float: left;width: 215px;font-family: 'Arvo',serif;border-radius:6px;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
