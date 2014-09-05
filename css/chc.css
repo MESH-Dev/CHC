@@ -430,4 +430,4 @@ div#fixedsidebar {position: fixed;max-width: 276px;}
 #content #contentPrimary label{font:15px/24px 'Raleway',sans-serif;color:#3f3f40;}
 
 .search-submit{color: #ffffff; width: 22px; margin-left: -2px; background: #2599e7; border: none;}
-.search-submit:hover{opacity:0.8;}
+.search-submit:hover{opacity:0.8; cursor:pointer;}
