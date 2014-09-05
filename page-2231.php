@@ -28,9 +28,7 @@ if ( have_posts() ) { while ( have_posts() ) { the_post(); ?>
         <?php the_content(); ?>
         <a href="<?php the_field('left_cta_link'); ?>">
           <div id="newsletter-callout">
-            <div class="gutter">
               <?php the_field('left_cta'); ?>
-            </div>
           </div>
         </a>
       </div>

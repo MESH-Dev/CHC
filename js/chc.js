@@ -98,6 +98,15 @@ jQuery(document).ready(function($){
 		}
 	});
 
+	$('#newsletter-callout').parent('a').click(function(e){
+		e.preventDefault();
+		$('#modal').addClass('active');
+		if($slideshow !== undefined){
+			$slideshow.pause();
+		}
+	});
+
+
 	//Sidebar Nav Title
 	$('#contentSecondary .titleCont a').text( function() { return $(this).attr('title'); });
 });
