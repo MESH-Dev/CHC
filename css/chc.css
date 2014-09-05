@@ -50,7 +50,7 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 		#welcome-callout .gutter{padding:10px;}
 		#welcome-callout:hover{opacity:.8;}
 
-  #newsletter-callout{font-size: 13px;color:#ffffff;line-height: 19px;word-spacing: -0.05em;background: url(../img/lineTexBG_blue.png);display: block;float: left;width: 215px;margin: 8px 0 0 16px;font-family: 'Arvo',serif;border-radius:6px;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
+  #newsletter-callout{font-size: 13px;color:#ffffff;line-height: 19px;word-spacing: -0.05em;background: url(../img/lineTexBG_blue.png);display: block;float: left;width: 215px;font-family: 'Arvo',serif;border-radius:6px;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
 		#newsletter-callout .gutter{padding:10px !important;}
 		#newsletter-callout:hover{opacity:.8;}
 
