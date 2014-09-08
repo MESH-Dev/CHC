@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-	if (($window).height() < 800) {
+	if ($(window).height() < 800) {
 		$('#fixedsidebar').css('position', '');
 	}
 
