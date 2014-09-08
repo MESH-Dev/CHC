@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
 		$('#content:not(.blog)').height($('#content').height() - 355);
 	}
 
-	$('#contentContainer').height($(window).height() - 110);
+	// $('#contentContainer').height($(window).height() - 110);
 	// $(window).resize(function() {
 	//     var scrollVal = $(document).height;
 	//     if (scrollVal > 700) {
