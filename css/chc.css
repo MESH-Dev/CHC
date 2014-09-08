@@ -103,8 +103,8 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 
 
 /* ----- Interior Layout ----- */
-.titleCont{height:64px;position:relative;border-bottom:1px solid #ccc;}
-	.titleCont h1, .titleCont ul{position:absolute;bottom:5px;left:0;margin:0;}
+.titleCont{border-bottom:1px solid #ccc;}
+	.titleCont h1, .titleCont ul{bottom:5px;left:0;margin:0;}
 	.titleCont ul{margin:0 !important;list-style:none;}
 	.titleCont ul li{display:none;}
 		.titleCont ul li span{display:block;}
