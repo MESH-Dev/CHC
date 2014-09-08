@@ -92,7 +92,7 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 	#megamenuCont #second{width:326px;border-left:1px solid #ececed;position:relative;z-index:2;}
 		#megamenuCont #second .gutter{padding:0 0 0 26px;}
 		#second .megamenuData-columnLeft, #third .megamenuData-columnRight{float:left;width:100%;}
-	#megamenuCont #third{width:246px;position:relative;z-index:1;}
+	#megamenuCont #third{width:243px;position:relative;z-index:1;}
 		#megamenuCont #third .gutter{padding:0 0 0 20px;}
 		#megamenuCont h3 {font-weight: bold;font-size: 15px;line-height: 15px;margin:0 0 10px 0;}
 		#megamenuCont h6 a {font:15px/20px 'Raleway',Arial,sans-serif;font-weight:300;margin:0 0 .5em; color:#2599e7}
