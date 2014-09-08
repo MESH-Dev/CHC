@@ -1,14 +1,11 @@
 <?php get_header();
-	$post = $_GET['post_type'];
+	$post = $_GET['search_type'];
 ?>
 <?php if($post == 'blog'){ ?>
 	<div id="content" class="blog">
 		<div class="container cf">
 			<div id="contentPrimary">
 				<div class="gutter">
-					<div id="blogSearch">
-						<?php get_template_part( 'searchform', 'blog' ); ?>
-					</div>
 					<div id="archive-query">
 						<h1>Posts searched for: <span><?php echo get_search_query(); ?></span></h1>
 					</div>
