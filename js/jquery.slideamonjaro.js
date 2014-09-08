@@ -117,8 +117,7 @@
 				}
 
 			}else{
-				//Invalid
-				console.log('Invalid transition: declaration. Transitions are Fade, Slide, and Scroll');
+				//Invalid				
 			}
 		}
 			this.play();

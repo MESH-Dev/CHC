@@ -69,7 +69,6 @@ jQuery(document).ready(function($){
 		$('#megamenuCont #second .gutter').html($leftcolumn);
 		$('#megamenuCont #third .gutter').html($rightcolumn);
 		if($slideshow !== undefined){
-			console.log($slideshow);
 			$slideshow.pause();
 		}
 	});
