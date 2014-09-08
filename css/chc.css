@@ -423,7 +423,7 @@ a.gridlink:hover > *{opacity:0.7;transition:0.2s all;-webkit-transition:0.2s all
 	#content .container #contentPrimary{float: right;width: 67.7%;background: #f5f5f5;position: relative;right: 0;z-index: 2;height: 100%;display: block;}
 	#content .container #contentSecondary{float: left;width: 32.3%;color: #fff;position:relative;left: 0;z-index: 2;height: 100%;display: block;}
 
-#content .blog .container #contentPrimary{float: right;width: 67.7%;background: #f5f5f5;position: relative;right: 0;z-index: 2;height: 100%;display: block;}
+.blog .container #contentPrimary{float: right;width: 67.7%;background: #f5f5f5;position: relative;right: 0;z-index: 2;height: 100%;display: block;}
 
 div#fixedsidebar {position: fixed;max-width: 276px;}
 
