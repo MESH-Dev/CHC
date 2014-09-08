@@ -4,7 +4,6 @@ jQuery(document).ready(function($){
 		$('#fixedsidebar').css('position', 'relative');
 
 	}
-	console.log($(window).height());
 
 	//Height balancing
 	$cH = $('#content #contentPrimary').height();
