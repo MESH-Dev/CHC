@@ -226,7 +226,6 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 #content.blog .titleCont h1 {text-transform:uppercase;font-size: 32px;line-height: 36px;position: relative;margin: 26px 0 0 0;}
 
 .post-heading{padding: 0 0 9px;margin: 0 0 12px;border-bottom: 1px double #e3e3e4;}
-.post-heading h1 {margin: 0;line-height: 45px;}
 .post-meta {font-size: 11px;color:#3f3f40;}
 	.post-meta em{font-family:'Arvo',serif;}
 .post-author{float:left;}
