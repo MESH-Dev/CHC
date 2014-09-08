@@ -21,7 +21,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header>
+<div class="header">
 	<div class="container">
 		<div class="gutter cf">
 			<div id="logo">
@@ -60,7 +60,7 @@
 			</div>
 		</div>
 	</div>
-</header>
+</div>
 <div id="megamenuCont">
 	<div class="container">
 		<div class="gutter cf">

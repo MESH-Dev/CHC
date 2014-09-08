@@ -1,4 +1,4 @@
-<footer>
+<div class="footer">
 	<div class="container">
 		<div class="gutter">
 			<?php
@@ -45,7 +45,7 @@
 				wp_nav_menu( $defaults ); ?>
 		</div>
 	</div>
-</footer>
+</div>
 <?php wp_footer(); ?>
 
 <script type="text/javascript">

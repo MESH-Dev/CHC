@@ -57,7 +57,7 @@ jQuery(document).ready(function($){
 
 	//Megamenu
 	$timer='';
-	$('header nav ul#main > li').hoverIntent(function(){
+	$('.header nav ul#main > li').hoverIntent(function(){
 		if($timer){
 			clearTimeout($timer);
 		}
