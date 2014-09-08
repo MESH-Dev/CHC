@@ -4,5 +4,5 @@
 		<input type="hidden" name="search_type" value="blog" />
 		<input type="hidden" name="post_type" value="post" />
 	</label>
-	<input type="submit" class="search-submit" value="Search" hidden="true" />
+	<input type="submit" class="search-submit" value="Search" />
 </form>
