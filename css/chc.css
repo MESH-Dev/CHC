@@ -101,6 +101,8 @@ header .megamenuData-columnLeft, header .megamenuData-columnRight, header .megam
 
 		.wp-caption { max-width: 100% !important; }
 
+.search-entry { margin-bottom: 20px;}
+
 
 /* ----- Interior Layout ----- */
 .titleCont{border-bottom:1px solid #ccc;}
