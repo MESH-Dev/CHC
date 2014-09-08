@@ -437,3 +437,6 @@ div#fixedsidebar {position: fixed;max-width: 276px;}
 
 .search-submit{color: #ffffff; width: 22px; margin-left: -2px; background: #2599e7; border: none;}
 .search-submit:hover{opacity:0.8; cursor:pointer;}
+
+.current_page_item a { color: #012b5d !important; }
+.current_page_ancestor a { color: #012b5d !important; } 
