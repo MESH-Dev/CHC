@@ -3,7 +3,7 @@
 	<span class="blog-description">
 		<?php echo get_field('desc', 69); ?>
 	</span>
-	<a href="<?php echo home_url(); ?>feed/" id="blog-rss">
+	<a href="<?php echo home_url(); ?>/feed/" id="blog-rss">
 		Subscribe to our Blog &raquo;
 	</a>
 </div>
