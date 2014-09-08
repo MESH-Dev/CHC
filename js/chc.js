@@ -2,7 +2,9 @@ jQuery(document).ready(function($){
 
 	if ($(window).height() < 800) {
 		$('#fixedsidebar').css('position', 'relative');
+
 	}
+	console.log($(window).height());
 
 	//Height balancing
 	$cH = $('#content #contentPrimary').height();
