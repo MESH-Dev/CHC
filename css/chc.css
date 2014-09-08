@@ -439,4 +439,4 @@ div#fixedsidebar {position: fixed;max-width: 276px;}
 .search-submit:hover{opacity:0.8; cursor:pointer;}
 
 .menu-main-nav-container .current_page_item a { color: #012b5d !important; }
-.current_page_ancestor a { color: #012b5d !important; }
+.menu-main-nav-container .current_page_ancestor a { color: #012b5d !important; }
