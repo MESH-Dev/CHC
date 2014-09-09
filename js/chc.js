@@ -35,11 +35,11 @@ jQuery(document).ready(function($){
 	//     $('.colorbar').height($(window).height());
 	// });
 
-	if (window.location.href.indexOf("/chc/nyc") > -1) {
+	if (window.location.href.indexOf("/nyc") > -1) {
 	    $("#menu-item-103 ul").hide();
 	}
 
-	if (window.location.href.indexOf("/chc/services/ft-lauderdale") > -1) {
+	if (window.location.href.indexOf("/services/ft-lauderdale") > -1) {
 		$("#menu-item-103 ul").hide();
 	}
 

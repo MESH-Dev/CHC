@@ -182,7 +182,7 @@ function cycle($first_value, $values = '*') {
 	}
 	add_action('admin_menu','minisite_admin_menu');
 	function remove_submenus(){
-		remove_submenu_page('options-general.php','options-permalink.php');						//Plugins
+		// remove_submenu_page('options-general.php','options-permalink.php');						//Plugins
 		remove_submenu_page('options-general.php', 'options-media.php');						//Plugins
 		//remove_menu_page('themes.php');						//Plugins
 		remove_submenu_page('themes.php', 'customize.php');						//Plugins
