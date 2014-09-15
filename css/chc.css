@@ -429,7 +429,7 @@ a.gridlink:hover > *{opacity:0.7;transition:0.2s all;-webkit-transition:0.2s all
 
 .blog .container #contentPrimary{float: right;width: 67.7%;background: #f5f5f5;position: absolute !important;right: 0;z-index: 2;height: 100%;display: block;}
 
-div#fixedsidebar {position: fixed;max-width: 276px;}
+div#fixedsidebar {position: relative;max-width: 276px;}
 
 /* Inputs */
 
