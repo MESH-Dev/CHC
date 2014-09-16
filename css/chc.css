@@ -125,7 +125,7 @@ img{max-width:100%;height:auto;}
 		#content #contentPrimary p{color:#3f3f40;}
 		#content #contentPrimary li{color:#3f3f40;}
 
-		.page-id-450 #menu-item-103:nth-child(2), .page-id-453 #menu-item-103:nth-child(2) { display: none !important; }
+		.page-id-450 #menu-item-103:last-child, .page-id-453 #menu-item-103:last-child { display: none !important; }
 
 
 	#content #contentSecondary{float: left;width: 32.3%;color:#fff;position:absolute;left:0;z-index:2;height:100%;display:table-cell;}
