@@ -11,7 +11,7 @@
 							Posted by <em><?php the_author(); ?></em> on <?php echo the_time('M j, Y'); ?>
 						</div>
 						<div class="post-data">
-							<?php the_category(', '); ?> | <?php comments_number('Comment', '1 Comment', '% Comments'); ?> | <span class='st_facebook' displayText='Facebook'></span><span class='st_twitter' displayText='Tweet'></span><span class='st_email' displayText='Email'></span>
+							<?php the_category(', '); ?> | <a href="<?php comments_link(); ?>"><?php comments_number('Comment', '1 Comment', '% Comments'); ?></a> | <span class='st_facebook' displayText='Facebook'></span><span class='st_twitter' displayText='Tweet'></span><span class='st_email' displayText='Email'></span>
 						</div>
 					</div>
 				</div>
@@ -21,7 +21,7 @@
 					} ?>
 					<?php the_content(); ?>
 				</div>
-				<div class="post-comments">
+				<div class="post-comments" id="comments">
 					<?php comments_template(); ?>
 				</div>
 			</div>
