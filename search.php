@@ -18,7 +18,7 @@
 									Posted by <em><?php the_author(); ?></em> on <?php echo the_time('M j, Y'); ?>
 								</div>
 								<div class="post-data">
-									<?php the_category(', '); ?> | <?php comments_number('Comment', '1 Comment', '% Comments'); ?> | <span class='st_facebook' displayText='Facebook'></span><span class='st_twitter' displayText='Tweet'></span><span class='st_email' displayText='Email'></span>
+									<?php the_category(', '); ?> | <a href="<?php comments_link(); ?>"><?php comments_number('Comment', '1 Comment', '% Comments'); ?></a> | <span class='st_facebook' displayText='Facebook'></span><span class='st_twitter' displayText='Tweet'></span><span class='st_email' displayText='Email'></span>
 								</div>
 							</div>
 						</div>
@@ -30,9 +30,12 @@
 							<span class="readmore"><a href="<?php the_permalink(); ?>">Read More &raquo;</a></span>
 						</div>
 					</div>
-					<?php } }else{
-						echo "<p>No posts found, try searching again or check the archives to the left.</p>";
-					} ?>
+					<?php } } ?>
+
+					<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
+					<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+
+
 				</div>
 			</div>
 
