@@ -398,8 +398,8 @@ margin-left: -250px;z-index:3;background:url(../img/lineTexBG.png);box-shadow: 0
 		#modal-box .gutter{padding:40px 20px 20px;}
 		#modal-box h3.sidebar-title{border-bottom:1px solid #ccc;}
 			#modal-box .modal-widget .gutter{padding:0 20px 20px;}
-		#modal-box input[type="text"]{width: 70%;display: inline-block;padding: 4px 2%;margin: 4px 0;border: 1px solid #ccc;color:#3F3F40;}
-		#modal-box label{width: 22%;display: inline-block;text-align: right;padding: 0 3% 0 0;}
+		#modal-box input[type="text"]{width: 71%;display: inline-block;padding: 4px 2%;margin: 4px 0;border: 1px solid #ccc;color:#3F3F40;}
+		#modal-box label{width: 20%;display: inline-block;text-align: left;padding: 0 3% 0 0;}
 		#modal-box input[type="submit"]{float: right;padding: 5px 13px;display: block;-webkit-appearance: initial;background:#3F3F40;color:#fff;text-transform:uppercase;border:none;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
 			#modal-box input[type="submit"]:hover{cursor:pointer;color: #3F3F40;background: #fff;}
 
