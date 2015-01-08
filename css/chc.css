@@ -125,7 +125,10 @@ img{max-width:100%;height:auto;}
 		#content #contentPrimary p{color:#3f3f40;}
 		#content #contentPrimary li{color:#3f3f40;}
 
+
 		.page-id-450 #contentSecondary #menu-item-103, .page-id-453 #contentSecondary #menu-item-103 { display:none !important;}
+		/*.page-id-450 #menu-item-103:last-child, .page-id-453 #menu-item-103:last-child { display: none !important; }*/
+
 
 
 	#content #contentSecondary{float: left;width: 32.3%;color:#fff;position:absolute;left:0;z-index:2;height:100%;display:table-cell;}
@@ -399,7 +402,7 @@ margin-left: -250px;z-index:3;background:url(../img/lineTexBG.png);box-shadow: 0
 		#modal-box h3.sidebar-title{border-bottom:1px solid #ccc;}
 			#modal-box .modal-widget .gutter{padding:0 20px 20px;}
 		#modal-box input[type="text"]{width: 70%;display: inline-block;padding: 4px 2%;margin: 4px 0;border: 1px solid #ccc;color:#3F3F40;}
-		#modal-box label{width: 22%;display: inline-block;text-align: right;padding: 0 3% 0 0;}
+		#modal-box label{width: 20%;display: inline-block;text-align: left;padding: 0 3% 0 0;}
 		#modal-box input[type="submit"]{float: right;padding: 5px 13px;display: block;-webkit-appearance: initial;background:#3F3F40;color:#fff;text-transform:uppercase;border:none;transition:0.2s all;-webkit-transition:0.2s all;-moz-transition:0.2s all;-ms-transition:0.2s all;-o-transition:0.2s all;}
 			#modal-box input[type="submit"]:hover{cursor:pointer;color: #3F3F40;background: #fff;}
 
