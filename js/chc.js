@@ -1,9 +1,5 @@
 jQuery(document).ready(function($){
 
-	// if ($(window).height() < 800) {
-	// 	$('#fixedsidebar').css('position', 'relative');
-	//
-	// }
 
 	//Height balancing
 	$cH = $('#content #contentPrimary').height();
@@ -35,13 +31,13 @@ jQuery(document).ready(function($){
 	//     $('.colorbar').height($(window).height());
 	// });
 
-	if (window.location.href.indexOf("/nyc") > -1) {
-	    $("#menu-item-103").hide();
-	}
-
-	if (window.location.href.indexOf("/services/ft-lauderdale") > -1) {
-		$("#menu-item-103").hide();
-	}
+	// if (window.location.href.indexOf("/nyc") > -1) {
+	//     $("#menu-item-103").hide();
+	// }
+	//
+	// if (window.location.href.indexOf("/services/ft-lauderdale") > -1) {
+	// 	$("#menu-item-103").hide();
+	// }
 
 	//Slideshow
 	if($('#slides').length > 0){

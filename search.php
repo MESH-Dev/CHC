@@ -30,7 +30,14 @@
 							<span class="readmore"><a href="<?php the_permalink(); ?>">Read More &raquo;</a></span>
 						</div>
 					</div>
-					<?php } }else{
+					<?php } ?>
+
+					<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
+					<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+
+					<?php
+
+					}else{
 						echo "<p>No posts found, try searching again or check the archives to the left.</p>";
 					} ?>
 				</div>
@@ -60,7 +67,14 @@
 						<?php the_excerpt(); ?>
 						<span class="readmore"><a href="<?php the_permalink(); ?>">Read More &raquo;</a></span>
 					</div>
-				<?php } }else{
+				<?php } ?>
+
+				<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
+				<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+
+				<?php
+
+				}else{
 					echo "<p>No search results found. Try again using the search form to the left or explore the site using the navigation buttons above.</p>";
 				} ?>
 				</div>
