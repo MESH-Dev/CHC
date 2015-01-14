@@ -445,3 +445,12 @@ div#fixedsidebar {position: relative;max-width: 276px;}
 
 .menu-main-nav-container .current_page_item a { color: #012b5d !important; }
 .menu-main-nav-container .current_page_ancestor a { color: #012b5d !important; }
+
+#s2email{border: none;
+	border-radius: 0px;
+	background: #fff;
+	line-height: 17px;
+	font-size: 9px;
+	width: 130px;
+	text-transform: uppercase;
+	padding: 0 0 1px 5px;}
